@@ -1,0 +1,136 @@
+.topbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px !important;
+  width: 100%;
+  background: rgba(43, 54, 62, 0.5);
+  backdrop-filter: blur(4px);
+  height: 89px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+.topbar-header .topbar-right-menu {
+  min-width: 566px;
+}
+.topbar-header .topbar-right-menu-phone {
+  display: none;
+}
+.topbar-header .topbar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 162px;
+}
+.topbar-header .topbar-left .logo {
+  width: 46.343px;
+  height: 41.149px;
+  margin-right: 9.36px;
+  background: url(/assets/logo.f3803f86.svg);
+}
+.topbar-header .topbar-left .Logomark {
+  width: 204.34px;
+  height: 21.921px;
+}
+.topbar-header .topbar-menu {
+  display: none;
+}
+.topbar-header .topbar-right {
+  margin-right: 162px;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+.topbar-header .topbar-right .item {
+  color: #fff;
+}
+.topbar-header .topbar-right .item.activity {
+  color: #00d193;
+}
+.topbar-header .flex {
+  flex: auto;
+}
+@media screen and (max-width: 540px) {
+  .topbar-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, #00d193 0%, #20aff3 100%);
+    border-image-slice: 1;
+    height: 55px;
+    z-index: 2;
+  }
+  .topbar-header .topbar-right-menu {
+    display: none;
+  }
+  .topbar-header .topbar-right-menu-phone {
+    display: block;
+    min-width: 244px;
+  }
+  .topbar-header .topbar-left {
+    background-color: #00d193;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .topbar-header .topbar-left .logo {
+    width: 22.884px;
+    height: 20.319px;
+    margin: 0;
+    background: url(/assets/logo-mini.7118281c.svg) no-repeat;
+  }
+  .topbar-header .topbar-left .Logomark {
+    display: none;
+  }
+  .topbar-header .topbar-menu {
+    cursor: pointer;
+    transition: all 0.5s;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(/assets/menu.bb643a6f.svg) no-repeat;
+  }
+  .topbar-header .topbar-menu:hover {
+    transform: scale(1.1);
+  }
+  .topbar-header .topbar-menu.show {
+    transform: rotate(90deg);
+  }
+  .topbar-header .topbar-right {
+    transform: translate(100vh);
+    position: fixed;
+    left: 0;
+    top: 55px;
+    flex-direction: column;
+    width: 100vw;
+    height: calc(100vh - 55px);
+    background-color: #000;
+    color: #fff;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-top: 5vh;
+    overflow: auto;
+    transition: all 0.5s;
+  }
+  .topbar-header .topbar-right.show {
+    transform: translate(0);
+  }
+}

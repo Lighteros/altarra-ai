@@ -10186,100 +10186,10 @@ nt.Content = Tn({
   displayName: "Content",
 })(ca);
 nt.default = yp;
-const Cp = "/assets/logomark.69159e65.svg";
+const Cp = "/assets/logomark.69159e65.png";
 const xp = () => {
     const [e] = Du(),
       t = [
-        {
-          label: T("a", {
-            href: "https://bit.ly/network3download",
-            onClick: () => {
-              e("click_download");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Download",
-          }),
-          key: "download",
-        },
-        {
-          label: T("a", {
-            href: "/document",
-            onClick: () => {
-              e("click_resource");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Resource",
-          }),
-          key: "resource",
-        },
-        {
-          label: T("a", {
-            href: "/news",
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "News",
-          }),
-          key: "news",
-        },
-        {
-          label: T("a", {
-            href: "/blogs",
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Blog",
-          }),
-          key: "blog",
-        },
-        {
-          label: T("a", {
-            href: "https://medium.com/@network3",
-            onClick: () => {
-              e("click_medium");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Medium",
-          }),
-          key: "medium",
-        },
-        {
-          label: T("a", {
-            href: "/pool",
-            onClick: () => {
-              e("ip_pool");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "IP Pool",
-          }),
-          key: "ip",
-        },
-        {
-          label: T("a", {
-            href: "/careers",
-            onClick: () => {
-              e("click_career");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Career",
-          }),
-          key: "career",
-        },
-        {
-          label: T("a", {
-            href: "https://account.network3.ai/register_page",
-            onClick: () => {
-              e("click_signup");
-            },
-            target: "_self",
-            rel: "noopener noreferrer",
-            children: "Sign Up",
-          }),
-          key: "signup",
-        },
       ],
       r = [
         {

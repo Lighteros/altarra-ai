@@ -4786,29 +4786,6 @@ const dn = ({ open: e, onClose: o, onSuccess: n }) => {
           }),
           !n &&
             t(eo, {
-              className: "cookieAlert",
-              message: l("p", {
-                children: [
-                  "We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies. For more information, please refer to our",
-                  t(Ut, { to: "pp", children: " Privacy Policy " }),
-                ],
-              }),
-              type: "info",
-              action: l(mt, {
-                direction:
-                  (o == null ? void 0 : o.width) > 540
-                    ? "horizontal"
-                    : "vertical",
-                children: [
-                  t(Pe, {
-                    size: "small",
-                    ghost: !0,
-                    onClick: d,
-                    children: "Decline All",
-                  }),
-                  t(Pe, { size: "small", onClick: d, children: "Accept All" }),
-                ],
-              }),
             }),
           t(to, { show: i, setShow: s }),
         ],

@@ -3540,6 +3540,9 @@
     color: #f5f0f0;
   }
 }
+.runnerTable > .box{
+  display: none !important;
+}
 .runnerTable {
   margin-top: 140px;
   position: relative;
@@ -3745,7 +3748,7 @@
 }
 .act-wrap {
   width: 100%;
-  height: 533px;
+  height: 333px;
   flex-shrink: 0;
   background: rgba(0, 137, 96, 0.2);
   backdrop-filter: blur(4px);

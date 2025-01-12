@@ -9977,9 +9977,8 @@ const r6 = "/assets/share.51f536ee.svg",
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC3UlEQVRYhe1XPU4bQRT+3uxiO1KkLDdYDpBgJJDSgUuqmM4FCouCItOZExBOAEiR2MJEQ+SCDnMC+wAkMVR0mZwgLiLFkN15KbCN99drA1XyVfbuvPd98/y9mWfgXwdNE1R2atZzs1ckDZuJuiDu/vIKnaY86D6ZgIpTtXMmNojhMJGdkE2R5vaNj71T6apHEVB2atYL4/c+k3CyigUAYpZZhKQKWN+qrgjQGQBrEvKR7Epr7DSOj5pJS4ykF2/fb28QUxNAYSryO1hEqMwvLqnLLxeX8Rpj0N956wHEEWhwqVF322MFVJyqnZuhFhjxRpseXeHl52SoU0R4Vd7g3ScgBwCLjd5++GGgAnetRt+fgHyIW4/nRjsjUIG8wbup0awPNbgE5mhrMSvNWAPrw7QUOROBdg4IYCFW0oI1uN2ou23hIyiCWQkfpcbxUVMTJbYcAIBoI/B18MFxapY2b36mB0Pd/uHSqXSV41RtbaAFAMJHSUpXZTWw8PKzAzMOK+CZvWIqOQAw7NwMtSpO1ZbSVcJHaVLyMJd5n5ysTDfDvYiS7Jtp0tbV+n7dsALEnP241Rw4Hgv9Z1khSA/PgqEAFsh0ew0MNyj76M8R2x1xIBEVYHqFzqTkuRlqhT2RRcQo11CAlAfdccGasBkxXMiYGrQzbhOjx3HwKCacpMUaoDfr77bLEcP1RaxvVVdMwnJaDgICF1JAgPAgU8UDNUE4i3U7wxaglgZqqQJ87CUKkNJVmjm1Cg8BMUsZmpAit6HpF2oAJh4ux4JZhXcfK0DKg64Grz02vwbthHcPJIxkV18v1Kvi4g8iKj8GORNvNuruady7xJnw6ttF5+XC0iWBX4NouqGUdVcTVht1d/KhtC/iemF+8dwnzBLR+MtqBMQshf9s9fOnj9ep67ImdJyq7Rn4IIBlJP0xYVYgnAgPEbc/WEBQTM3yzF4RTBYxWyygTK/QCQ+c/5EFfwGzaGLnvdM8mAAAAABJRU5ErkJggg==",
   Po = [d6, u6, f6],
   Pn = [
-    "https://twitter.com/network3_ai",
-    "https://t.me/network3official",
-    "https://discord.gg/q4cHgxZUCH",
+    "https://twitter.com/Altarra_Network",
+    "https://t.me/Altarra_Network",
   ],
   v6 = (e) => {
     const [t] = vi(),
@@ -15814,43 +15813,18 @@ const u0 = ({ targetDate: e }) => {
       return () => clearInterval(g);
     }, []);
     const b = () => {
-      C.push("/shop");
+      C.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
+    };
+    const bb = () => {
+      C.push("https://alexeys-organization-9.gitbook.io/altarra-ai");
     };
     return d
       ? _("div", {
-          className: `countDown ${d ? "showPresale" : ""}`,
-          children: [
-            i("div", { className: "t2", children: "N3 Edge V1 Pre-Sale" }),
-            _("div", {
-              className: "preSale",
-              children: [
-                u && i("div", { className: "saleout" }),
-                i("div", { className: "prod" }),
-                i("div", { className: "stage" }),
-                _("div", {
-                  className: "groups",
-                  children: [
-                    i("div", {
-                      className: "btns",
-                      onClick: b,
-                      children: "Buy now",
-                    }),
-                    i("div", {
-                      className: "btns",
-                      onClick: b,
-                      children: "Learn more",
-                    }),
-                  ],
-                }),
-              ],
-            }),
-          ],
         })
       : _("div", {
           className: "countDown",
           children: [
             i("div", { className: "t1", children: "Count down" }),
-            i("div", { className: "t2", children: "N3 Edge V1 Pre-Sale" }),
             _("div", {
               className: "clock",
               children: [
@@ -15891,7 +15865,7 @@ const p0 = ({ trackHandle: e }) =>
       _("div", {
         className: "title",
         children: [
-          "N3\u2019s Enterprise GPUs Power On-demand Solutions ",
+          "ALTA\u2024s Enterprise GPUs Power On-demand Solutions ",
           i("br", {}),
           " Empowering Providers and Renters",
         ],
@@ -15977,7 +15951,7 @@ const v0 = ({ trackHandle: e }) =>
         _("div", {
           className: "content",
           children: [
-            "Altarra Pre-TGE Airdrop Carnival ",
+            "Altarra AI Network is ",
             i("br", {}),
             " ",
             i("div", { className: "bb", children: "LIVE NOW" }),
@@ -15985,9 +15959,9 @@ const v0 = ({ trackHandle: e }) =>
         }),
         i("a", {
           className: "btn",
-          href: "https://app.galxe.com/quest/CG3MTn53RHfAgpuHjW3XRB/GC1QLtooL8",
+          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
           target: "_blank",
-          children: "Join Now",
+          children: "Buy Now",
         }),
       ],
     }),
@@ -16006,74 +15980,6 @@ const v0 = ({ trackHandle: e }) =>
     return _("footer", {
       className: "footerC",
       children: [
-        _("div", {
-          className: "qa",
-          children: [
-            _("div", {
-              className: "qa-item",
-              onClick: e,
-              children: [
-                i("img", {
-                  src: s6,
-                  alt: "ICON_QA1",
-                  className: "qa-item-left",
-                }),
-                _("div", {
-                  className: "qa-item-right",
-                  children: [
-                    i("div", {
-                      onClick: () => {
-                        t("click_have_questions"), e();
-                      },
-                      children: "Have Questions?",
-                    }),
-                    i("div", { children: "Support Available" }),
-                  ],
-                }),
-              ],
-            }),
-            _("div", {
-              className: "qa-item",
-              onClick: () => {
-                t("click_documentations"), o("document");
-              },
-              children: [
-                i("img", {
-                  src: c6,
-                  alt: "ICON_QA2",
-                  className: "qa-item-left",
-                }),
-                _("div", {
-                  className: "qa-item-right",
-                  children: [
-                    i("div", { children: "Documentations" }),
-                    i("div", { children: "Explore the Docs" }),
-                  ],
-                }),
-              ],
-            }),
-          ],
-        }),
-        _("div", {
-          className: "nav",
-          children: [
-            i("div", { className: "hot", children: "About" }),
-            i("div", {}),
-            i("div", {}),
-            i("div", {
-              className: "aciviy",
-              onClick: () => o("careers"),
-              children: "Careers",
-            }),
-            i("div", { onClick: () => o("pp"), children: "Privacy Policy" }),
-            i("div", {
-              onClick: () => o("tos"),
-              children: "Terms of services",
-            }),
-            i("div", { onClick: () => o("brand"), children: "Brand Kit" }),
-            i("div", { onClick: () => o("pool"), children: "IP Pool" }),
-          ],
-        }),
         _("div", {
           className: "socials",
           children: [
@@ -16212,9 +16118,9 @@ const v0 = ({ trackHandle: e }) =>
                               className: "mini_btn",
                               onClick: () => {
                                 e("click_run_a_node"),
-                                  O("https://bit.ly/3Pa0LpG");
+                                  O("https://altarra-ai-app-cs.vercel.app/");
                               },
-                              children: "Start Now",
+                              children: "Launch App",
                             }),
                           ],
                         }),
@@ -16230,9 +16136,9 @@ const v0 = ({ trackHandle: e }) =>
                               className: "mini_btn",
                               onClick: () => {
                                 e("click_start_now"),
-                                  O("https://bit.ly/3Pa0LpG");
+                                  O("https://altarra-ai-app-cs.vercel.app/");
                               },
-                              children: "Start Now",
+                              children: "Launch App",
                             }),
                           ],
                         }),
@@ -16383,7 +16289,7 @@ const v0 = ({ trackHandle: e }) =>
                     e("click_view_live_network"), g();
                   },
                   className: "t1",
-                  children: "N3 Edge V1 Device",
+                  children: "ALTA Edge V1 Device",
                 }),
                 _("div", {
                   className: "home-content-live-liveC",
@@ -16453,56 +16359,6 @@ const v0 = ({ trackHandle: e }) =>
                 }),
               ],
             }),
-            _("div", {
-              className: "start-doc",
-              children: [
-                _("div", {
-                  className: "start-doc-item",
-                  children: [
-                    i("div", {
-                      children: i("img", { src: r6, alt: "ICON_SHARE" }),
-                    }),
-                    i("div", { children: "Network Node" }),
-                    i("div", {
-                      onClick: () => {
-                        e("click_run_a_node"), O("https://bit.ly/3Pa0LpG");
-                      },
-                      children: "Run a Node",
-                    }),
-                  ],
-                }),
-                _("div", {
-                  className: "start-doc-item",
-                  children: [
-                    i("div", {
-                      children: i("img", { src: o6, alt: "ICON_SHARE" }),
-                    }),
-                    i("div", { children: "Token Holder" }),
-                    i("div", {
-                      onClick: () => {
-                        e("click_explore"), g();
-                      },
-                      children: "Explore",
-                    }),
-                  ],
-                }),
-                _("div", {
-                  className: "start-doc-item",
-                  children: [
-                    i("div", {
-                      children: i("img", { src: i6, alt: "ICON_SHARE" }),
-                    }),
-                    i("div", { children: "Builders" }),
-                    i("div", {
-                      onClick: () => {
-                        e("click_get_started"), g();
-                      },
-                      children: "Get Started",
-                    }),
-                  ],
-                }),
-              ],
-            }),
             i("div", { className: "liner" }),
             _("div", {
               className: "home-content-live-iframe",
@@ -16547,43 +16403,14 @@ const v0 = ({ trackHandle: e }) =>
             }),
             i("div", { className: "liner" }),
             _("div", {
-              className: "home-content-events",
-              children: [
-                i("div", {
-                  className: "home-content-events-title",
-                  children: "Events",
-                }),
-                i("div", {
-                  className: "home-content-events-desc",
-                  children: "We're running events all over the world!",
-                }),
-                i(jo, {}),
-              ],
-            }),
-            _("div", {
-              className: "home-content-events-app",
-              children: [
-                i("div", {
-                  className: "home-content-events-app-title",
-                  children: "ALTARRA EVENTS",
-                }),
-                i("div", {
-                  className: "home-content-events-app-desc",
-                  children: "We're running events all over the world!",
-                }),
-                i(jo, {}),
-              ],
-            }),
-            i("div", { className: "liner" }),
-            _("div", {
               className: "home-content-funding",
               children: [
                 _("div", {
                   className: "home-content-funding-title",
                   children: [
-                    "Seed Round Funding ",
+                    "Total Supply",
                     i("br", {}),
-                    "$5.5 Million",
+                    "1 Billion ALTA",
                   ],
                 }),
                 i(d0, {}),
@@ -16706,7 +16533,7 @@ const v0 = ({ trackHandle: e }) =>
                           i("div", { children: "Node Runners" }),
                           i("div", {
                             children:
-                              "Stake your earned N3 In the Delegation Pool. Earn even More N3.",
+                              "Stake your earned ALTA In the Delegation Pool. Earn even More ALTA.",
                           }),
                         ],
                       }),
@@ -16720,18 +16547,11 @@ const v0 = ({ trackHandle: e }) =>
                           i("div", { children: "Token Holders" }),
                           i("div", {
                             children:
-                              "Add your tokens to the Delegation Pool. Earn rewards in N3.",
+                              "Add your tokens to the Delegation Pool. Earn rewards in ALTA.",
                           }),
                         ],
                       }),
                     ],
-                  }),
-                  i("div", {
-                    onClick: () => {
-                      e("click_learn_more_about_network3token"), g();
-                    },
-                    className: "home-content-token-inner-link",
-                    children: " > Learn More About Altarra Token <",
                   }),
                 ],
               }),
@@ -16748,16 +16568,6 @@ const v0 = ({ trackHandle: e }) =>
                     "transform the way you connect and collaborate!",
                   ],
                 }),
-                i("div", {
-                  onClick: () => {
-                    e("click_start_earning"), g();
-                  },
-                  children: "Start Earning",
-                }),
-                i("p", {
-                  children:
-                    "Join our whitelist today to secure your spot and receive exclusive early access benefits.",
-                }),
               ],
             }),
             i(Ul, { hanlderShowDialog: g, trackHandle: e }),
@@ -16769,29 +16579,6 @@ const v0 = ({ trackHandle: e }) =>
         i(D6, { isModalOpen: n, setIsModalOpen: a }),
         !r &&
           i(g8, {
-            className: "cookieAlert",
-            message: _("p", {
-              children: [
-                "We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies. For more information, please refer to our",
-                i(us, { to: "pp", children: " Privacy Policy " }),
-              ],
-            }),
-            type: "info",
-            action: _(Zs, {
-              direction:
-                (t == null ? void 0 : t.width) > 540
-                  ? "horizontal"
-                  : "vertical",
-              children: [
-                i(E1, {
-                  size: "small",
-                  ghost: !0,
-                  onClick: y,
-                  children: "Decline All",
-                }),
-                i(E1, { size: "small", onClick: y, children: "Accept All" }),
-              ],
-            }),
           }),
       ],
     });

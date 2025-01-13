@@ -15816,7 +15816,7 @@ const u0 = ({ targetDate: e }) => {
       C.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
     };
     const bb = () => {
-      C.push("https://alexeys-organization-9.gitbook.io/altarra-ai");
+      C.push("https://docs.altarranetwork.cc");
     };
     return d
       ? _("div", {
@@ -16118,7 +16118,7 @@ const v0 = ({ trackHandle: e }) =>
                               className: "mini_btn",
                               onClick: () => {
                                 e("click_run_a_node"),
-                                  O("https://altarra-ai-app-cs.vercel.app/");
+                                  O("https://app.altarranetwork.cc");
                               },
                               children: "Launch App",
                             }),
@@ -16136,7 +16136,7 @@ const v0 = ({ trackHandle: e }) =>
                               className: "mini_btn",
                               onClick: () => {
                                 e("click_start_now"),
-                                  O("https://altarra-ai-app-cs.vercel.app/");
+                                  O("https://app.altarranetwork.cc");
                               },
                               children: "Launch App",
                             }),

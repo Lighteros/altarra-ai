@@ -16389,7 +16389,7 @@ const v0 = ({ trackHandle: e }) =>
             _("div", {
               className: "home-content-ecosystem",
               children: [
-                i("div", { children: "Dive into Network3's Ecosystem" }),
+                i("div", { children: "Dive into Altarra's Ecosystem" }),
                 i("div", {
                   children: "Learn about our network and technology.",
                 }),

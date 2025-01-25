@@ -15813,7 +15813,7 @@ const u0 = ({ targetDate: e }) => {
       return () => clearInterval(g);
     }, []);
     const b = () => {
-      C.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
+      C.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x92cb117786642BC77dB875Ed4f710007dE35F6dA");
     };
     const bb = () => {
       C.push("https://doc.altarranetwork.cc");
@@ -15959,7 +15959,7 @@ const v0 = ({ trackHandle: e }) =>
         }),
         i("a", {
           className: "btn",
-          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
+          href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x92cb117786642BC77dB875Ed4f710007dE35F6dA",
           target: "_blank",
           children: "Buy Now",
         }),

@@ -15816,7 +15816,7 @@ const u0 = ({ targetDate: e }) => {
       C.push("https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000");
     };
     const bb = () => {
-      C.push("https://docs.altarranetwork.cc");
+      C.push("https://doc.altarranetwork.cc");
     };
     return d
       ? _("div", {
